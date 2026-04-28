@@ -6,7 +6,7 @@
 const LANG_DATA = {
   en: {
     status:         'Open for collaboration',
-    bio:            'Backend Developer & Tech Enthusiast. Passionate about building scalable web applications and exploring new technologies. Always eager to collaborate on exciting projects and contribute to the developer community.',
+    bio:            '.NET Backend Dev · Tech Enthusiast · Vibe Coder',
     sectionTitle:   'My Links',
     nowPlaying:     'Now Playing',
     footer:         'Made with ❤️ by Irgi Fahlevi',
@@ -18,7 +18,7 @@ const LANG_DATA = {
   },
   id: {
     status:         'Terbuka untuk kolaborasi',
-    bio:            'Pengembang Backend & Penggemar Teknologi. Bersemangat membangun aplikasi web yang skalabel dan mengeksplorasi teknologi baru. Selalu ingin berkolaborasi dalam proyek menarik dan berkontribusi pada komunitas pengembang.',
+    bio:            '.NET Backend Dev · Tech Enthusiast · Vibe Coder',
     sectionTitle:   'Tautan Saya',
     nowPlaying:     'Sedang Diputar',
     footer:         'Dibuat dengan ❤️ oleh Irgi Fahlevi',
@@ -30,7 +30,7 @@ const LANG_DATA = {
   },
   jp: {
     status:         '協力募集中',
-    bio:            'フルスタック開発者 & UIデザイナー • 美しいデジタル体験を構築',
+    bio:            '.NET Backend Dev · Tech Enthusiast · Vibe Coder',
     sectionTitle:   'リンク',
     nowPlaying:     '再生中',
     footer:         '❤️ で作った by Alex Morgan',
