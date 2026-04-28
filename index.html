@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alex Morgan — Links</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Corner Gradient Background -->
+  <div class="bg-mesh" aria-hidden="true">
+    <div class="bg-blob bg-blob-orange"></div>
+    <div class="bg-blob bg-blob-blue"></div>
+  </div>
+
+  <!-- Top Navigation -->
+  <nav class="top-nav" aria-label="Site navigation">
+    <div class="nav-brand">
+      <div class="nav-logo-mark" aria-hidden="true"></div>
+      <span class="nav-logo-text">links</span>
+    </div>
+    <div class="nav-end">
+      <!-- Dark Mode Toggle -->
+      <button class="theme-btn" id="themeToggle" aria-label="Toggle dark mode">
+        <span class="theme-icon sun"><i data-lucide="sun"></i></span>
+        <span class="theme-icon moon"><i data-lucide="moon"></i></span>
+      </button>
+      <!-- Language Switcher -->
+      <nav class="lang-nav" aria-label="Language switcher">
+        <button class="lang-btn glass-btn" id="langToggle" aria-haspopup="listbox" aria-expanded="false">
+          <i data-lucide="globe"></i>
+          <span id="langLabel">EN</span>
+          <i data-lucide="chevron-down" class="chev"></i>
+        </button>
+        <ul class="lang-dropdown" id="langDropdown" role="listbox">
+          <li role="option" data-lang-code="en" class="lang-option active">🇺🇸 English</li>
+          <li role="option" data-lang-code="id" class="lang-option">🇮🇩 Indonesia</li>
+          <li role="option" data-lang-code="jp" class="lang-option">🇯🇵 日本語</li>
+        </ul>
+      </nav>
+    </div>
+  </nav>
+
+  <!-- Main Container -->
+  <main class="container">
+
+    <!-- Profile Card -->
+    <div class="profile-glass">
+
+      <header class="profile-header">
+        <!-- Avatar -->
+        <div class="avatar-wrapper">
+          <div class="avatar-ring" aria-hidden="true"></div>
+          <img
+            src="https://api.dicebear.com/9.x/avataaars/svg?seed=irgifahlevi&backgroundColor=b6e3f4"
+            alt="Irgi Fahlevi"
+            class="avatar"
+            width="100" height="100"
+          />
+        </div>
+
+        <h1 class="profile-name">Irgi Fahlevi</h1>
+
+        <div class="status-badge">
+          <span class="status-dot" aria-hidden="true"></span>
+          <span data-i18n="status">Open for collaboration</span>
+        </div>
+
+        <p class="profile-bio" data-i18n="bio">
+          Backend Developer &amp; Tech Enthusiast. Passionate about building scalable web applications and exploring new technologies. Always eager to collaborate on exciting projects and contribute to the developer community.
+        </p>
+      </header>
+
+      <!-- Divider -->
+      <div class="glass-divider" aria-hidden="true"></div>
+
+      <!-- Links -->
+      <section class="links-section" aria-label="Social links">
+        <p class="section-title" data-i18n="sectionTitle">My Links</p>
+
+        <a href="#" class="link-card" style="animation-delay:.08s">
+          <div class="link-icon-wrap" style="--ic:#8B5CF6;--icbg:rgba(139,92,246,.10)">
+            <i data-lucide="layout-dashboard"></i>
+          </div>
+          <div class="link-text">
+            <span class="link-label" data-i18n="link_portfolio">Portfolio</span>
+            <span class="link-sub">irgifahlevi.dev</span>
+          </div>
+          <i data-lucide="arrow-up-right" class="link-arrow"></i>
+        </a>
+
+        <a href="#" class="link-card" style="animation-delay:.16s">
+          <div class="link-icon-wrap" style="--ic:#1A1A2E;--icbg:rgba(26,26,46,.07)">
+            <i data-lucide="github"></i>
+          </div>
+          <div class="link-text">
+            <span class="link-label" data-i18n="link_github">GitHub</span>
+            <span class="link-sub">github.com/irgifahlevi</span>
+          </div>
+          <i data-lucide="arrow-up-right" class="link-arrow"></i>
+        </a>
+
+        <a href="#" class="link-card" style="animation-delay:.24s">
+          <div class="link-icon-wrap" style="--ic:#0A66C2;--icbg:rgba(10,102,194,.09)">
+            <i data-lucide="linkedin"></i>
+          </div>
+          <div class="link-text">
+            <span class="link-label" data-i18n="link_linkedin">LinkedIn</span>
+            <span class="link-sub">linkedin.com/in/irgifahlevi</span>
+          </div>
+          <i data-lucide="arrow-up-right" class="link-arrow"></i>
+        </a>
+
+        <a href="#" class="link-card" style="animation-delay:.32s">
+          <div class="link-icon-wrap" style="--ic:#FF0000;--icbg:rgba(255,0,0,.08)">
+            <i data-lucide="youtube"></i>
+          </div>
+          <div class="link-text">
+            <span class="link-label" data-i18n="link_youtube">YouTube</span>
+            <span class="link-sub">youtube.com/@irgifahlevi</span>
+          </div>
+          <i data-lucide="arrow-up-right" class="link-arrow"></i>
+        </a>
+
+        <a href="#" class="link-card" style="animation-delay:.40s">
+          <div class="link-icon-wrap" style="--ic:#5865F2;--icbg:rgba(88,101,242,.09)">
+            <i data-lucide="message-circle"></i>
+          </div>
+          <div class="link-text">
+            <span class="link-label" data-i18n="link_discord">Discord</span>
+            <span class="link-sub">discord.gg/irgifahlevi</span>
+          </div>
+          <i data-lucide="arrow-up-right" class="link-arrow"></i>
+        </a>
+      </section>
+
+      <!-- Music Card -->
+      <section class="music-section" aria-label="Now playing">
+        <div class="music-card" style="animation-delay:.50s">
+          <div class="music-cover-wrap">
+            <img
+              src="https://picsum.photos/seed/musiccover/80/80"
+              alt="Album art"
+              class="music-cover"
+              width="60" height="60"
+            />
+            <span class="music-eq" aria-hidden="true">
+              <span></span><span></span><span></span>
+            </span>
+          </div>
+          <div class="music-info">
+            <span class="music-label" data-i18n="nowPlaying">Now Playing</span>
+            <span class="music-title">Midnight Electric</span>
+            <span class="music-artist">Neon Pulse &amp; The Static</span>
+            <div class="music-progress-wrap" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+              <div class="music-progress-bar"></div>
+            </div>
+          </div>
+          <div class="music-play-btn" aria-label="Now playing">
+            <i data-lucide="radio"></i>
+          </div>
+        </div>
+      </section>
+
+    </div><!-- /profile-glass -->
+
+  </main>
+
+  <footer class="site-footer">
+    <p data-i18n="footer">Made with ❤️ by Irgi Fahlevi</p>
+  </footer>
+
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
