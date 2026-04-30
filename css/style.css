@@ -482,7 +482,8 @@ button { font-family: var(--font); cursor: pointer; border: none; background: no
   height: 100%;
   border-radius: var(--r-full);
   object-fit: cover;
-  background: #EDE9FE;
+  object-position: center 18%;
+  background: #e8e4e0;
 }
 
 .profile-name {
