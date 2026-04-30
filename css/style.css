@@ -12,36 +12,36 @@
   --text-faint:    rgba(26,26,46,0.40);
 
   /* Glass — main card */
-  --glass-bg:        rgba(255,255,255,0.72);
-  --glass-bg-hover:  rgba(255,255,255,0.88);
-  --glass-border:    rgba(255,255,255,0.80);
-  --glass-border-hover: rgba(255,255,255,0.98);
+  --glass-bg:        rgba(255,255,255,0.55);
+  --glass-bg-hover:  rgba(255,255,255,0.72);
+  --glass-border:    rgba(255,255,255,0.65);
+  --glass-border-hover: rgba(255,255,255,0.90);
   --glass-shadow:    0 4px 24px rgba(0,0,0,0.06);
-  --glass-shadow-lg: 0 20px 64px rgba(0,0,0,0.09);
+  --glass-shadow-lg: 0 20px 64px rgba(0,0,0,0.08), inset 0 1px 0 rgba(255,255,255,0.50);
 
   /* Link card */
-  --card-bg:        rgba(255,255,255,0.60);
-  --card-bg-hover:  rgba(255,255,255,0.90);
-  --card-border:    rgba(230,225,220,0.70);
+  --card-bg:        rgba(255,255,255,0.38);
+  --card-bg-hover:  rgba(255,255,255,0.62);
+  --card-border:    rgba(255,255,255,0.55);
   --card-shadow:    0 2px 10px rgba(0,0,0,0.04);
-  --card-shadow-h:  0 10px 36px rgba(0,0,0,0.10);
+  --card-shadow-h:  0 10px 36px rgba(232,132,94,0.14);
 
   /* Music card */
-  --music-bg:       rgba(255,255,255,0.48);
+  --music-bg:       rgba(255,255,255,0.35);
 
   /* Nav / Controls */
-  --nav-bg:         rgba(255,255,255,0.80);
-  --nav-border:     rgba(220,215,210,0.55);
-  --ctrl-bg:        rgba(255,255,255,0.72);
-  --ctrl-border:    rgba(220,215,210,0.70);
+  --nav-bg:         rgba(255,255,255,0.60);
+  --nav-border:     rgba(220,215,210,0.45);
+  --ctrl-bg:        rgba(255,255,255,0.55);
+  --ctrl-border:    rgba(220,215,210,0.50);
 
   /* Dropdown */
-  --drop-bg:        rgba(255,255,255,0.94);
-  --drop-hover:     rgba(139,92,246,0.06);
+  --drop-bg:        rgba(255,255,255,0.90);
+  --drop-hover:     rgba(232,132,94,0.08);
 
-  /* Accents */
-  --a: #8B5CF6;
-  --b: #EC4899;
+  /* Accents — warm orange & sky blue (matching background) */
+  --a: #E8845E;
+  --b: #5BADE6;
 
   /* Divider */
   --divider: rgba(0,0,0,0.07);
@@ -77,28 +77,28 @@
   --text-muted:    #9CA3AF;
   --text-faint:    rgba(240,238,248,0.38);
 
-  --glass-bg:        rgba(18,16,34,0.70);
-  --glass-bg-hover:  rgba(26,22,48,0.86);
-  --glass-border:    rgba(255,255,255,0.10);
-  --glass-border-hover: rgba(255,255,255,0.22);
+  --glass-bg:        rgba(18,16,34,0.55);
+  --glass-bg-hover:  rgba(26,22,48,0.72);
+  --glass-border:    rgba(255,255,255,0.12);
+  --glass-border-hover: rgba(255,255,255,0.25);
   --glass-shadow:    0 4px 24px rgba(0,0,0,0.35);
-  --glass-shadow-lg: 0 20px 64px rgba(0,0,0,0.50);
+  --glass-shadow-lg: 0 20px 64px rgba(0,0,0,0.45), inset 0 1px 0 rgba(255,255,255,0.08);
 
   --card-bg:        rgba(255,255,255,0.06);
-  --card-bg-hover:  rgba(255,255,255,0.11);
-  --card-border:    rgba(255,255,255,0.09);
+  --card-bg-hover:  rgba(255,255,255,0.12);
+  --card-border:    rgba(255,255,255,0.10);
   --card-shadow:    0 2px 12px rgba(0,0,0,0.22);
-  --card-shadow-h:  0 10px 36px rgba(139,92,246,0.16);
+  --card-shadow-h:  0 10px 36px rgba(232,132,94,0.18);
 
   --music-bg:       rgba(255,255,255,0.05);
 
-  --nav-bg:         rgba(12,12,20,0.85);
-  --nav-border:     rgba(255,255,255,0.08);
-  --ctrl-bg:        rgba(20,18,36,0.72);
-  --ctrl-border:    rgba(255,255,255,0.12);
+  --nav-bg:         rgba(12,12,20,0.70);
+  --nav-border:     rgba(255,255,255,0.10);
+  --ctrl-bg:        rgba(20,18,36,0.60);
+  --ctrl-border:    rgba(255,255,255,0.14);
 
-  --drop-bg:        rgba(20,18,40,0.97);
-  --drop-hover:     rgba(139,92,246,0.14);
+  --drop-bg:        rgba(20,18,40,0.92);
+  --drop-hover:     rgba(232,132,94,0.14);
 
   --divider: rgba(255,255,255,0.09);
 }
@@ -403,12 +403,12 @@ button { font-family: var(--font); cursor: pointer; border: none; background: no
 }
 
 /* ============================================
-   Profile Glass Card
+   Profile Glass Card — Enhanced Frosted Glass
    ============================================ */
 .profile-glass {
   background: var(--glass-bg);
-  backdrop-filter: blur(30px) saturate(170%);
-  -webkit-backdrop-filter: blur(30px) saturate(170%);
+  backdrop-filter: blur(40px) saturate(180%);
+  -webkit-backdrop-filter: blur(40px) saturate(180%);
   border: 1px solid var(--glass-border);
   border-radius: var(--r-xl);
   box-shadow: var(--glass-shadow-lg);
@@ -418,14 +418,15 @@ button { font-family: var(--font); cursor: pointer; border: none; background: no
   transition: background 0.4s ease, border-color 0.4s ease, box-shadow 0.4s ease;
 }
 
-/* Top-edge specular highlight */
+/* Top-edge specular highlight — frosted glass reflection */
 .profile-glass::before {
   content: '';
   position: absolute;
-  top: 0; left: 6%; right: 6%;
-  height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.85), transparent);
+  top: 0; left: 4%; right: 4%;
+  height: 1.5px;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.90), transparent);
   pointer-events: none;
+  z-index: 1;
 }
 
 /* Glass divider */
@@ -561,13 +562,13 @@ button { font-family: var(--font); cursor: pointer; border: none; background: no
   align-items: center;
   gap: 13px;
   background: var(--card-bg);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(20px) saturate(150%);
+  -webkit-backdrop-filter: blur(20px) saturate(150%);
   border: 1px solid var(--card-border);
   border-radius: var(--r-card);
   padding: 14px 16px;
   margin-bottom: 9px;
-  box-shadow: var(--card-shadow);
+  box-shadow: var(--card-shadow), inset 0 1px 0 rgba(255,255,255,0.40);
   cursor: pointer;
   transition:
     transform var(--t-card),
@@ -582,12 +583,12 @@ button { font-family: var(--font); cursor: pointer; border: none; background: no
   overflow: hidden;
 }
 
-/* Shine on hover */
+/* Shine on hover — glass refraction */
 .link-card::after {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, rgba(255,255,255,0.18) 0%, transparent 55%);
+  background: linear-gradient(135deg, rgba(255,255,255,0.25) 0%, transparent 50%);
   opacity: 0;
   transition: opacity var(--t-card);
   border-radius: inherit;
@@ -598,8 +599,8 @@ button { font-family: var(--font); cursor: pointer; border: none; background: no
 .link-card:hover {
   transform: translateY(-3px);
   background: var(--card-bg-hover);
-  box-shadow: var(--card-shadow-h);
-  border-color: rgba(255,255,255,0.88);
+  box-shadow: var(--card-shadow-h), inset 0 1px 0 rgba(255,255,255,0.50);
+  border-color: rgba(255,255,255,0.80);
 }
 
 @keyframes fadeInUp {
@@ -670,19 +671,19 @@ button { font-family: var(--font); cursor: pointer; border: none; background: no
   align-items: center;
   gap: 14px;
   background: var(--music-bg);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(20px) saturate(150%);
+  -webkit-backdrop-filter: blur(20px) saturate(150%);
   border: 1px solid var(--card-border);
   border-radius: var(--r-card);
   padding: 14px 16px;
-  box-shadow: var(--card-shadow);
+  box-shadow: var(--card-shadow), inset 0 1px 0 rgba(255,255,255,0.35);
   transition: transform var(--t-card), box-shadow var(--t-card);
   opacity: 0;
   animation: fadeInUp 0.50s ease-out forwards;
 }
 .music-card:hover {
   transform: translateY(-2px);
-  box-shadow: var(--card-shadow-h);
+  box-shadow: var(--card-shadow-h), inset 0 1px 0 rgba(255,255,255,0.45);
 }
 
 .music-cover-wrap { position: relative; flex-shrink: 0; }
@@ -853,17 +854,116 @@ button { font-family: var(--font); cursor: pointer; border: none; background: no
     filter: blur(70px);
   }
 
-  /* Container: beri ruang agar background terlihat di sisi & bawah card */
+  /* Container: padding besar agar card lebih kecil & background terlihat */
   .container {
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-bottom: 24px;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: calc(var(--nav-h) + 36px);
+    padding-bottom: 32px;
   }
 
-  /* Glass card: sedikit transparan agar background tembus */
+  /* Glass card */
   .profile-glass {
     background: var(--glass-bg);
-    border-radius: 22px;
+    border-radius: 20px;
+  }
+}
+
+/* ============================================
+   All Mobile (max-width: 767px) — Compact card
+   ============================================ */
+@media (max-width: 767px) {
+  /* Profile glass: kurangi padding internal */
+  .profile-glass {
+    padding: 20px 16px;
+    border-radius: 20px;
+  }
+
+  /* Avatar lebih kecil */
+  .avatar-wrapper {
+    width: 76px;
+    height: 76px;
+    margin-bottom: 2px;
+  }
+
+  /* Nama & bio lebih kecil */
+  .profile-name {
+    font-size: 1.5rem;
+    letter-spacing: -0.4px;
+  }
+  .profile-bio {
+    font-size: 0.82rem;
+    max-width: 260px;
+    line-height: 1.55;
+  }
+  .status-badge {
+    padding: 4px 10px;
+    font-size: 0.72rem;
+  }
+
+  /* Profile header gap lebih rapat */
+  .profile-header {
+    gap: 8px;
+  }
+
+  /* Divider lebih tipis */
+  .glass-divider {
+    margin: 14px 0;
+  }
+
+  /* Section title */
+  .section-title {
+    font-size: 0.6rem;
+    margin-bottom: 7px;
+  }
+
+  /* Link cards lebih compact */
+  .link-card {
+    padding: 10px 12px;
+    margin-bottom: 7px;
+    gap: 10px;
+    border-radius: 14px;
+  }
+  .link-icon-wrap {
+    width: 36px;
+    height: 36px;
+    border-radius: 10px;
+  }
+  .link-icon-wrap svg { width: 16px; height: 16px; }
+  .link-label { font-size: 0.88rem; }
+  .link-sub { font-size: 0.68rem; }
+  .link-arrow svg { width: 14px; height: 14px; }
+  .links-section { margin-bottom: 10px; }
+
+  /* Music card lebih compact */
+  .music-card {
+    padding: 10px 12px;
+    gap: 10px;
+    border-radius: 14px;
+  }
+  .music-cover {
+    width: 46px;
+    height: 46px;
+    border-radius: 8px;
+  }
+  .music-eq {
+    width: 18px;
+    height: 18px;
+  }
+  .music-title { font-size: 0.8rem; }
+  .music-artist { font-size: 0.68rem; }
+  .music-label { font-size: 0.58rem; }
+  .music-play-btn {
+    width: 32px;
+    height: 32px;
+  }
+  .music-play-btn svg { width: 13px; height: 13px; }
+  .music-progress-wrap { margin-top: 5px; }
+
+  /* Footer */
+  .site-footer {
+    padding: 12px var(--pad) 20px;
+    font-size: 0.7rem;
   }
 }
 
@@ -871,30 +971,25 @@ button { font-family: var(--font); cursor: pointer; border: none; background: no
    Android / iPhone Regular (375px – 430px)
    ============================================ */
 @media (min-width: 375px) and (max-width: 430px) {
-  :root { --pad: 20px; }
-  .top-nav { padding: 0 18px; }
-  .profile-name { font-size: 1.7rem; }
-  .profile-bio  { font-size: 0.88rem; }
-  .link-label   { font-size: 0.95rem; }
-  .avatar-wrapper { width: 88px; height: 88px; }
+  :root { --pad: 18px; }
+  .top-nav { padding: 0 16px; }
 }
 
 /* ============================================
    iPhone SE (< 375px)
    ============================================ */
 @media (max-width: 374px) {
-  :root { --pad: 16px; }
-  .top-nav { padding: 0 16px; }
-  .profile-name { font-size: 1.55rem; }
-  .profile-bio  { font-size: 0.85rem; }
-  .link-label   { font-size: 0.9rem; }
-  .avatar-wrapper { width: 80px; height: 80px; }
-  .link-card    { padding: 12px 14px; }
+  :root { --pad: 14px; }
+  .top-nav { padding: 0 14px; }
+  .profile-glass { padding: 16px 12px; }
+  .profile-name { font-size: 1.35rem; }
+  .avatar-wrapper { width: 68px; height: 68px; }
+  .link-card { padding: 9px 10px; }
 
   .music-card {
     flex-direction: column;
     align-items: flex-start;
-    gap: 10px;
+    gap: 8px;
   }
   .music-cover-wrap { align-self: center; }
   .music-play-btn   { align-self: flex-end; }
